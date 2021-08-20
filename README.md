@@ -30,14 +30,14 @@ Before you begin, ensure you have met the following requirements:
 
 ## Install
 
-Clone respository: `https://github.com/antonio-lopez/react-netflix-clone.git`
+Clone respository: `https://github.com/antonio-lopez/google-maps-travel-advisor.git`
 
 ```
-cd travel-advisor/
+cd google-maps-travel-advisor/
 npm install
 ```
 
-Create a `.env` file in the root `travel-advisor/` directory, create two variables, add your API keys.
+Create a `.env` file in the root `google-maps-travel-advisor/` directory, create two variables, add your API keys.
 
 ```
 REACT_APP_GOOGLE_MAPS_API_KEY=
@@ -47,7 +47,7 @@ REACT_APP_RAPID_API_KEY=
 ## Usage
 
 ```
-cd travel-advisor/
+cd google-maps-travel-advisor/
 npm start
 ```
 
