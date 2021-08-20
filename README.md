@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+<h1 align="center">Welcome to Travel Advisor 👋</h1>
+<p>
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> A React application that searches for restaurants, hotels, and attractions based on your location using RapidAPI's Travel Advisor API.
 
-## Available Scripts
+### 🏠 [Homepage](https://antonio-netflix-clone.netlify.app/)
 
-In the project directory, you can run:
+![screenshot](/uploads/travel_advisor_screenshot.png?raw=true)
 
-### `npm start`
+## Prerequisites
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Before you begin, ensure you have met the following requirements:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Create an account at [RapidAPI](https://rapidapi.com/hub)
+- Enable key for [Travel Advisor API](https://rapidapi.com/apidojo/api/travel-advisor/)
+- Enable key for [Open Weather Map API](https://rapidapi.com/community/api/open-weather-map/)
+- Enable key for [Maps JavaScript API ](https://developers.google.com/maps/documentation/javascript/get-api-key)
 
-### `npm test`
+## Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Travel Advisor API fetching of restaurants, hotels, and attractions based on a user's location
+- Filter items by ratings
+- List scrolls to the selected item from the map
+- Address and phone number of selected item
+- "Certificate of Excellence" awards for each item on the list
+- Search for a new location in the search bar
+- New items are displayed when map moves to a different area
+- Weather icon is diplayed using Open Weather Map API
 
-### `npm run build`
+## Install
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Clone respository: `https://github.com/antonio-lopez/react-netflix-clone.git`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+cd travel-advisor/
+npm install
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Create a `.env` file in the root `travel-advisor/` directory, create two variables, add your API keys.
 
-### `npm run eject`
+```
+REACT_APP_GOOGLE_MAPS_API_KEY=
+REACT_APP_RAPID_API_KEY=
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Usage
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+cd travel-advisor/
+npm start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Author
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+👤 **Antonio Lopez**
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Website: [Antonio Lopez](https://www.antoniolopez.me/)
+- Github: [@antonio-lopez](https://github.com/antonio-lopez)
