@@ -4,7 +4,7 @@
 
 > A React application that searches for restaurants, hotels, and attractions based on your location using RapidAPI's Travel Advisor API.
 
-### 🏠 [Homepage](https://antonio-netflix-clone.netlify.app/)
+### 🏠 [Homepage](https://antonio-travel-advisor.netlify.app/)
 
 ![screenshot](/uploads/travel_advisor_screenshot.png?raw=true)
 
